@@ -10,6 +10,7 @@
 
 #include <string>
 #include <vector>
+#include <cstdint> // For uint8_t
 
 namespace easywsclient {
 

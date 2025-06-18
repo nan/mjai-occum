@@ -174,11 +174,11 @@ void socketTest() {
     MJAIGame game;
     while (true) {
 #ifdef SOCKET_LOCAL
-        int ret = s.start("127.0.0.1", 11600, &game);
+        int ret = s.start(const_cast<char*>("127.0.0.1"), 11600, &game);
 #elif TENHOUPORT == 1
-        int ret = s.start("192.168.0.3", 11601, &game);
+        int ret = s.start(const_cast<char*>("192.168.0.3"), 11601, &game);
 #else
-        int ret = s.start("192.168.0.4", 11600, &game);
+        int ret = s.start(const_cast<char*>("192.168.0.4"), 11600, &game);
 #endif
         
         if (ret == -1) {
@@ -416,7 +416,7 @@ int main(int argc, const char *argv[]) {
         
         const char *c = host.c_str();
         cout << "start client. host = " << c << endl;
-        startClient((char *)c, port);
+        startClient(const_cast<char*>(c), port);
     } else {
         printf("incorrect argument. Usage(ex.) : mjai-occam "
                "mjsonp://localhost:11600/default > /dev/null 2>&1");

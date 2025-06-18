@@ -1,5 +1,6 @@
 
 #include "mjscore.h"
+#include <cstring> // Added for memcpy, memset
 
 //成立した役名一覧
 void MJScore::Get_Yakuname(string s[]) {

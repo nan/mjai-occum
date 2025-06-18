@@ -15,6 +15,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string>
+#include <cstring> // Added for memcpy, memset
 using namespace std;
 
 #pragma warning(disable : 4800)

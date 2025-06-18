@@ -49,11 +49,9 @@ public:
         for (int i = 0; i < 3; i++) {
             std::cout << "taiSyou[" << i << "] = " << taiSyou[i] << std::endl;
             std::cout << "tensuu = " << workPointVector[taiSyou[i]] << std::endl;
-            std::cout << "workPointVector[" << seki << "] -
-            workPointVector[taiSyou["
-                                    << i << "]] = "
-                                    << workPointVector[seki] - workPointVector[taiSyou[i]]
-                                    << std::endl;
+            std::cout << "workPointVector[" << seki << "] - workPointVector[taiSyou[" << i << "]] = "
+                      << workPointVector[seki] - workPointVector[taiSyou[i]]
+                      << std::endl;
                                     }
 #endif
                                     for (int i = 0; i < 3; i++) {
