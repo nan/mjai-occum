@@ -1,0 +1,1 @@
+# AverageRankCalculator4人打ち立直麻雀局と得点状況と平均順位を求めるクラス

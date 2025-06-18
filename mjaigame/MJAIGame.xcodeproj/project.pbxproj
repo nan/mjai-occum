@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0422B2521DD6CA5300B12BFE /* easywsclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0422B24F1DD6CA5300B12BFE /* easywsclient.cpp */; };
+		0422B2531DD6CA5300B12BFE /* easywsclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0422B24F1DD6CA5300B12BFE /* easywsclient.cpp */; };
+		0422B2541DD6CA5300B12BFE /* easywsclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0422B24F1DD6CA5300B12BFE /* easywsclient.cpp */; };
+		0422B2551DD6CA5300B12BFE /* easywsclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0422B24F1DD6CA5300B12BFE /* easywsclient.cpp */; };
+		0422B2561DD6CA5300B12BFE /* easywsclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0422B24F1DD6CA5300B12BFE /* easywsclient.cpp */; };
+		3B15CEBD1D64429A000B6005 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC561D1E4F8A0011CE6E /* README.md */; };
+		3B15CEBE1D64429A000B6005 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC1C1D117D150011CE6E /* main.cpp */; };
+		3B15CEBF1D64429A000B6005 /* yuukouhai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC1AC71D30E6F200D43FB5 /* yuukouhai.cpp */; };
+		3B15CEC01D64429A000B6005 /* mjscore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC531D1ACE290011CE6E /* mjscore.cpp */; };
+		3BCD07081D63F9DE000FB47F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC561D1E4F8A0011CE6E /* README.md */; };
+		3BCD07091D63F9DE000FB47F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC1C1D117D150011CE6E /* main.cpp */; };
+		3BCD070A1D63F9DE000FB47F /* yuukouhai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC1AC71D30E6F200D43FB5 /* yuukouhai.cpp */; };
+		3BCD070B1D63F9DE000FB47F /* mjscore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC531D1ACE290011CE6E /* mjscore.cpp */; };
+		8B51AC1D1D117D150011CE6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC1C1D117D150011CE6E /* main.cpp */; };
+		8B51AC551D1ACE290011CE6E /* mjscore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC531D1ACE290011CE6E /* mjscore.cpp */; };
+		8B51AC571D1E4F8A0011CE6E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC561D1E4F8A0011CE6E /* README.md */; };
+		8BA1DFBB1D784DED00732B80 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC561D1E4F8A0011CE6E /* README.md */; };
+		8BA1DFBC1D784DED00732B80 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC1C1D117D150011CE6E /* main.cpp */; };
+		8BA1DFBD1D784DED00732B80 /* yuukouhai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC1AC71D30E6F200D43FB5 /* yuukouhai.cpp */; };
+		8BA1DFBE1D784DED00732B80 /* mjscore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC531D1ACE290011CE6E /* mjscore.cpp */; };
+		8BDC1AC91D30E6F200D43FB5 /* yuukouhai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC1AC71D30E6F200D43FB5 /* yuukouhai.cpp */; };
+		8BEDC74E1D7139F1002AEFC6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC561D1E4F8A0011CE6E /* README.md */; };
+		8BEDC74F1D7139F1002AEFC6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC1C1D117D150011CE6E /* main.cpp */; };
+		8BEDC7501D7139F1002AEFC6 /* yuukouhai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC1AC71D30E6F200D43FB5 /* yuukouhai.cpp */; };
+		8BEDC7511D7139F1002AEFC6 /* mjscore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B51AC531D1ACE290011CE6E /* mjscore.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B15CEC21D64429A000B6005 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3BCD070D1D63F9DE000FB47F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8B51ABBD1D0ED7E90011CE6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8BA1DFC01D784DED00732B80 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8BEDC7531D7139F1002AEFC6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0422B24F1DD6CA5300B12BFE /* easywsclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = easywsclient.cpp; sourceTree = "<group>"; };
+		0422B2501DD6CA5300B12BFE /* easywsclient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = easywsclient.hpp; sourceTree = "<group>"; };
+		04CDD8691DDFF09D00EA7DC2 /* infiniteLoop.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = infiniteLoop.sh; sourceTree = "<group>"; };
+		3B15CEC61D64429A000B6005 /* SOCKET_LOCAL_MJAIGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SOCKET_LOCAL_MJAIGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCD07111D63F9DE000FB47F /* JSON_TEST_MJAIGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSON_TEST_MJAIGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B51ABBF1D0ED7E90011CE6E /* MJAIGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MJAIGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B51AC1C1D117D150011CE6E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8B51AC1E1D117EB60011CE6E /* prob_dist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prob_dist.h; sourceTree = "<group>"; };
+		8B51AC481D153DE30011CE6E /* OpponentHoraEstimator */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OpponentHoraEstimator; path = ../OpponentHoraEstimator; sourceTree = "<group>"; };
+		8B51AC491D153DEE0011CE6E /* TenpaiProbEstimator */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TenpaiProbEstimator; path = ../TenpaiProbEstimator; sourceTree = "<group>"; };
+		8B51AC4A1D153DF90011CE6E /* AverageRankCalculator */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AverageRankCalculator; path = ../AverageRankCalculator; sourceTree = "<group>"; };
+		8B51AC4B1D153E070011CE6E /* HoraEstimator */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HoraEstimator; path = ../HoraEstimator; sourceTree = "<group>"; };
+		8B51AC4C1D16465C0011CE6E /* MJAIGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MJAIGame.hpp; sourceTree = "<group>"; };
+		8B51AC4D1D16467C0011CE6E /* player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		8B51AC4E1D1647140011CE6E /* picojson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = picojson.h; sourceTree = "<group>"; };
+		8B51AC4F1D16847F0011CE6E /* furo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = furo.h; sourceTree = "<group>"; };
+		8B51AC501D16847F0011CE6E /* pai.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pai.h; sourceTree = "<group>"; };
+		8B51AC511D16BA5E0011CE6E /* socket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		8B51AC521D1ABF530011CE6E /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		8B51AC531D1ACE290011CE6E /* mjscore.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486209; lastKnownFileType = sourcecode.cpp.cpp; path = mjscore.cpp; sourceTree = "<group>"; };
+		8B51AC541D1ACE290011CE6E /* mjscore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mjscore.h; sourceTree = "<group>"; };
+		8B51AC561D1E4F8A0011CE6E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8B6F0D391D27DB3900B79BDD /* MJAIGameForApp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MJAIGameForApp.hpp; sourceTree = "<group>"; };
+		8BA1DFC41D784DED00732B80 /* mjai-occam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "mjai-occam"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA1DFC51D786BA200732B80 /* usage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = usage; sourceTree = "<group>"; };
+		8BDC1AC71D30E6F200D43FB5 /* yuukouhai.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yuukouhai.cpp; sourceTree = "<group>"; };
+		8BDC1AC81D30E6F200D43FB5 /* yuukouhai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yuukouhai.h; sourceTree = "<group>"; };
+		8BEDC7571D7139F1002AEFC6 /* MJAIGame11601 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MJAIGame11601; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B15CEC11D64429A000B6005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BCD070C1D63F9DE000FB47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B51ABBC1D0ED7E90011CE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA1DFBF1D784DED00732B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEDC7521D7139F1002AEFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B51ABB61D0ED7E90011CE6E = {
+			isa = PBXGroup;
+			children = (
+				8B51AC4A1D153DF90011CE6E /* AverageRankCalculator */,
+				8B51AC4B1D153E070011CE6E /* HoraEstimator */,
+				8B51AC481D153DE30011CE6E /* OpponentHoraEstimator */,
+				8B51AC491D153DEE0011CE6E /* TenpaiProbEstimator */,
+				8B51AC1C1D117D150011CE6E /* main.cpp */,
+				04CDD8691DDFF09D00EA7DC2 /* infiniteLoop.sh */,
+				8B51AC1E1D117EB60011CE6E /* prob_dist.h */,
+				8B51AC531D1ACE290011CE6E /* mjscore.cpp */,
+				8B51AC541D1ACE290011CE6E /* mjscore.h */,
+				8BDC1AC71D30E6F200D43FB5 /* yuukouhai.cpp */,
+				8BDC1AC81D30E6F200D43FB5 /* yuukouhai.h */,
+				0422B24F1DD6CA5300B12BFE /* easywsclient.cpp */,
+				0422B2501DD6CA5300B12BFE /* easywsclient.hpp */,
+				8B51AC4F1D16847F0011CE6E /* furo.h */,
+				8B51AC501D16847F0011CE6E /* pai.h */,
+				8B51AC4E1D1647140011CE6E /* picojson.h */,
+				8B51AC511D16BA5E0011CE6E /* socket.h */,
+				8B51AC521D1ABF530011CE6E /* util.h */,
+				8B51AC4C1D16465C0011CE6E /* MJAIGame.hpp */,
+				8B6F0D391D27DB3900B79BDD /* MJAIGameForApp.hpp */,
+				8B51AC4D1D16467C0011CE6E /* player.h */,
+				8BA1DFC51D786BA200732B80 /* usage */,
+				8B51AC561D1E4F8A0011CE6E /* README.md */,
+				8B51ABC01D0ED7E90011CE6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B51ABC01D0ED7E90011CE6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B51ABBF1D0ED7E90011CE6E /* MJAIGame */,
+				3BCD07111D63F9DE000FB47F /* JSON_TEST_MJAIGame */,
+				3B15CEC61D64429A000B6005 /* SOCKET_LOCAL_MJAIGame */,
+				8BEDC7571D7139F1002AEFC6 /* MJAIGame11601 */,
+				8BA1DFC41D784DED00732B80 /* mjai-occam */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B15CEBB1D64429A000B6005 /* SOCKET_LOCAL_MJAIGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B15CEC31D64429A000B6005 /* Build configuration list for PBXNativeTarget "SOCKET_LOCAL_MJAIGame" */;
+			buildPhases = (
+				3B15CEBC1D64429A000B6005 /* Sources */,
+				3B15CEC11D64429A000B6005 /* Frameworks */,
+				3B15CEC21D64429A000B6005 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOCKET_LOCAL_MJAIGame;
+			productName = MJAIOrganizer;
+			productReference = 3B15CEC61D64429A000B6005 /* SOCKET_LOCAL_MJAIGame */;
+			productType = "com.apple.product-type.tool";
+		};
+		3BCD07061D63F9DE000FB47F /* JSON_TEST_MJAIGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BCD070E1D63F9DE000FB47F /* Build configuration list for PBXNativeTarget "JSON_TEST_MJAIGame" */;
+			buildPhases = (
+				3BCD07071D63F9DE000FB47F /* Sources */,
+				3BCD070C1D63F9DE000FB47F /* Frameworks */,
+				3BCD070D1D63F9DE000FB47F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSON_TEST_MJAIGame;
+			productName = MJAIOrganizer;
+			productReference = 3BCD07111D63F9DE000FB47F /* JSON_TEST_MJAIGame */;
+			productType = "com.apple.product-type.tool";
+		};
+		8B51ABBE1D0ED7E90011CE6E /* MJAIGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B51ABC61D0ED7E90011CE6E /* Build configuration list for PBXNativeTarget "MJAIGame" */;
+			buildPhases = (
+				8B51ABBB1D0ED7E90011CE6E /* Sources */,
+				8B51ABBC1D0ED7E90011CE6E /* Frameworks */,
+				8B51ABBD1D0ED7E90011CE6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJAIGame;
+			productName = MJAIOrganizer;
+			productReference = 8B51ABBF1D0ED7E90011CE6E /* MJAIGame */;
+			productType = "com.apple.product-type.tool";
+		};
+		8BA1DFB91D784DED00732B80 /* MJAIGame_Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA1DFC11D784DED00732B80 /* Build configuration list for PBXNativeTarget "MJAIGame_Release" */;
+			buildPhases = (
+				8BA1DFBA1D784DED00732B80 /* Sources */,
+				8BA1DFBF1D784DED00732B80 /* Frameworks */,
+				8BA1DFC01D784DED00732B80 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJAIGame_Release;
+			productName = MJAIOrganizer;
+			productReference = 8BA1DFC41D784DED00732B80 /* mjai-occam */;
+			productType = "com.apple.product-type.tool";
+		};
+		8BEDC74C1D7139F1002AEFC6 /* MJAIGame11601 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEDC7541D7139F1002AEFC6 /* Build configuration list for PBXNativeTarget "MJAIGame11601" */;
+			buildPhases = (
+				8BEDC74D1D7139F1002AEFC6 /* Sources */,
+				8BEDC7521D7139F1002AEFC6 /* Frameworks */,
+				8BEDC7531D7139F1002AEFC6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJAIGame11601;
+			productName = MJAIOrganizer;
+			productReference = 8BEDC7571D7139F1002AEFC6 /* MJAIGame11601 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B51ABB71D0ED7E90011CE6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 123;
+				TargetAttributes = {
+					8B51ABBE1D0ED7E90011CE6E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B51ABBA1D0ED7E90011CE6E /* Build configuration list for PBXProject "MJAIGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B51ABB61D0ED7E90011CE6E;
+			productRefGroup = 8B51ABC01D0ED7E90011CE6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B51ABBE1D0ED7E90011CE6E /* MJAIGame */,
+				3BCD07061D63F9DE000FB47F /* JSON_TEST_MJAIGame */,
+				3B15CEBB1D64429A000B6005 /* SOCKET_LOCAL_MJAIGame */,
+				8BEDC74C1D7139F1002AEFC6 /* MJAIGame11601 */,
+				8BA1DFB91D784DED00732B80 /* MJAIGame_Release */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B15CEBC1D64429A000B6005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B15CEBD1D64429A000B6005 /* README.md in Sources */,
+				3B15CEBE1D64429A000B6005 /* main.cpp in Sources */,
+				0422B2541DD6CA5300B12BFE /* easywsclient.cpp in Sources */,
+				3B15CEBF1D64429A000B6005 /* yuukouhai.cpp in Sources */,
+				3B15CEC01D64429A000B6005 /* mjscore.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BCD07071D63F9DE000FB47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCD07081D63F9DE000FB47F /* README.md in Sources */,
+				3BCD07091D63F9DE000FB47F /* main.cpp in Sources */,
+				0422B2531DD6CA5300B12BFE /* easywsclient.cpp in Sources */,
+				3BCD070A1D63F9DE000FB47F /* yuukouhai.cpp in Sources */,
+				3BCD070B1D63F9DE000FB47F /* mjscore.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B51ABBB1D0ED7E90011CE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B51AC571D1E4F8A0011CE6E /* README.md in Sources */,
+				8B51AC1D1D117D150011CE6E /* main.cpp in Sources */,
+				0422B2521DD6CA5300B12BFE /* easywsclient.cpp in Sources */,
+				8BDC1AC91D30E6F200D43FB5 /* yuukouhai.cpp in Sources */,
+				8B51AC551D1ACE290011CE6E /* mjscore.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA1DFBA1D784DED00732B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA1DFBB1D784DED00732B80 /* README.md in Sources */,
+				8BA1DFBC1D784DED00732B80 /* main.cpp in Sources */,
+				0422B2561DD6CA5300B12BFE /* easywsclient.cpp in Sources */,
+				8BA1DFBD1D784DED00732B80 /* yuukouhai.cpp in Sources */,
+				8BA1DFBE1D784DED00732B80 /* mjscore.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEDC74D1D7139F1002AEFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEDC74E1D7139F1002AEFC6 /* README.md in Sources */,
+				8BEDC74F1D7139F1002AEFC6 /* main.cpp in Sources */,
+				0422B2551DD6CA5300B12BFE /* easywsclient.cpp in Sources */,
+				8BEDC7501D7139F1002AEFC6 /* yuukouhai.cpp in Sources */,
+				8BEDC7511D7139F1002AEFC6 /* mjscore.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B15CEC41D64429A000B6005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"SOCKET_LOCAL=1",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B15CEC51D64429A000B6005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = fast;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BCD070F1D63F9DE000FB47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BCD07101D63F9DE000FB47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B51ABC41D0ED7E90011CE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B51ABC51D0ED7E90011CE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B51ABC71D0ED7E90011CE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"SOCKET=1",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B51ABC81D0ED7E90011CE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = fast;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BA1DFC21D784DED00732B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE_BUILD=1";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/bin;
+				PRODUCT_NAME = "mjai-occam";
+			};
+			name = Debug;
+		};
+		8BA1DFC31D784DED00732B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE_BUILD=1";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/bin;
+				PRODUCT_NAME = "mjai-occam";
+			};
+			name = Release;
+		};
+		8BEDC7551D7139F1002AEFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"SOCKET=1",
+					"TENHOUPORT=1",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BEDC7561D7139F1002AEFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = fast;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B15CEC31D64429A000B6005 /* Build configuration list for PBXNativeTarget "SOCKET_LOCAL_MJAIGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B15CEC41D64429A000B6005 /* Debug */,
+				3B15CEC51D64429A000B6005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BCD070E1D63F9DE000FB47F /* Build configuration list for PBXNativeTarget "JSON_TEST_MJAIGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCD070F1D63F9DE000FB47F /* Debug */,
+				3BCD07101D63F9DE000FB47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B51ABBA1D0ED7E90011CE6E /* Build configuration list for PBXProject "MJAIGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B51ABC41D0ED7E90011CE6E /* Debug */,
+				8B51ABC51D0ED7E90011CE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B51ABC61D0ED7E90011CE6E /* Build configuration list for PBXNativeTarget "MJAIGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B51ABC71D0ED7E90011CE6E /* Debug */,
+				8B51ABC81D0ED7E90011CE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA1DFC11D784DED00732B80 /* Build configuration list for PBXNativeTarget "MJAIGame_Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA1DFC21D784DED00732B80 /* Debug */,
+				8BA1DFC31D784DED00732B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEDC7541D7139F1002AEFC6 /* Build configuration list for PBXNativeTarget "MJAIGame11601" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEDC7551D7139F1002AEFC6 /* Debug */,
+				8BEDC7561D7139F1002AEFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B51ABB71D0ED7E90011CE6E /* Project object */;
+}

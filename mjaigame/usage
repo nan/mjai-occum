@@ -1,0 +1,1 @@
+./MJAIOccam [IP of MJAI] [PORT of MJAI] > /dev/null 2>&1

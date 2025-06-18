@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JSON_TEST_MJAIGame.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MJAIGame.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>MJAIGame11601.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>MJAIGame_Release.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SOCKET_LOCAL_MJAIGame.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3B15CEBB1D64429A000B6005</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3BCD07061D63F9DE000FB47F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B51ABBE1D0ED7E90011CE6E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8BA1DFB91D784DED00732B80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8BEDC74C1D7139F1002AEFC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
