@@ -55,7 +55,7 @@ public:
         if (!checked) {
             if (s ==
                 "?") {
-                type = number = NULL;
+                type = ""; number = 0; // Changed from NULL
                 red = false;
                 checked = true;
                 identifier = -1;

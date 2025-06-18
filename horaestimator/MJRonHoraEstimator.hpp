@@ -1,7 +1,7 @@
 #ifndef MJRONHoraEstimator_hpp
 #define MJRONHoraEstimator_hpp
 
-#include "../OpponentHoraEstimator/OpponentHoraEstimator.hpp"
+#include "OpponentHoraEstimator.hpp" // Changed path
 #include "MJHoraEstimator.hpp"
 #include "pai.h"
 

@@ -1,7 +1,7 @@
 #ifndef _OPM_
 #define _OPM_
 #include "ma_jan.h"
-#include "../util.h"
+#include "util.h"
 
 #define simtime 1000
 
@@ -75,7 +75,7 @@ public:
 	{
 		string str;
 		int sum = 0;
-		std::ofstream ofs("/data/local/mizukami/tenpai_pre/tenpai_pre_tag.txt");
+		// std::ofstream ofs("/data/local/mizukami/tenpai_pre/tenpai_pre_tag.txt");
 		for (int i = 0; i <= 1; i++)
 		{
 			sum++;
@@ -172,13 +172,13 @@ public:
 				}
 			}
 		}
-		boost::unordered_map<std::string, int>::iterator ite;
-		for (ite = tenpai_train_list.begin(); ite != tenpai_train_list.end(); ite++)
-		{
-			ofs << ite->first << std::endl;
-		}
+		// boost::unordered_map<std::string, int>::iterator ite;
+		// for (ite = tenpai_train_list.begin(); ite != tenpai_train_list.end(); ite++)
+		// {
+		// 	ofs << ite->first << std::endl;
+		// }
 		tenpai_train_list.clear();
-		ifstream ifs("/data/local/mizukami/tenpai_pre/tenpai_pre_tag.txt");
+		ifstream ifs("source/tenpai_pre_tag.txt");
 		vector<string> result;
 		int j = 1;
 		while (getline(ifs, str))
@@ -374,7 +374,7 @@ public:
 	{
 		string str;
 		int sum = 0;
-		std::ofstream ofs("/data/local/mizukami/matiyomi/matiyomi_tag.txt");
+		// std::ofstream ofs("/data/local/mizukami/matiyomi/matiyomi_tag.txt");
 		for (int i = 0; i<34; i++)
 		{
 			for (int j = 0; j <= 4; j++)
@@ -529,13 +529,13 @@ public:
 		str = "bias";
 		matiyomi_list[str] = sum;
 
-		boost::unordered_map<std::string, int>::iterator ite;
-		for (ite = matiyomi_list.begin(); ite != matiyomi_list.end(); ite++)
-		{
-			ofs << ite->first << std::endl;
-		}
+		// boost::unordered_map<std::string, int>::iterator ite;
+		// for (ite = matiyomi_list.begin(); ite != matiyomi_list.end(); ite++)
+		// {
+		// 	ofs << ite->first << std::endl;
+		// }
 		matiyomi_list.clear();
-		ifstream ifs("/data/local/mizukami/matiyomi/matiyomi_tag.txt");
+		ifstream ifs("source/matiyomi_tag.txt");
 		vector<string> result;
 		int j = 1;
 		while (getline(ifs, str))
@@ -859,7 +859,7 @@ public:
 			}
 			//if(k==2&&tatya[2].ri_ti_flag==1){while(1){}}
 		}
-		Util::writeFileToLogTxt("cal_matiyomi_pro end");
+		Util::writeFileToLogTxt(std::string("cal_matiyomi_pro end"));
 		return matiyomi_pro;
 	}
 
@@ -871,7 +871,7 @@ public:
 	{
 		string str;
 		int sum = 0;
-		std::ofstream ofs("/data/local/mizukami/tokuten_pre/tokuten_pre_tag.txt");
+		// std::ofstream ofs("/data/local/mizukami/tokuten_pre/tokuten_pre_tag.txt");
 
 		for (int i = 0; i<2; i++)
 		{
@@ -1069,13 +1069,13 @@ public:
 				tokuten_train_list[str] = sum;
 			}
 		}
-		boost::unordered_map<std::string, int>::iterator ite;
-		for (ite = tokuten_train_list.begin(); ite != tokuten_train_list.end(); ite++)
-		{
-			ofs << ite->first << std::endl;
-		}
+		// boost::unordered_map<std::string, int>::iterator ite;
+		// for (ite = tokuten_train_list.begin(); ite != tokuten_train_list.end(); ite++)
+		// {
+		// 	ofs << ite->first << std::endl;
+		// }
 		tokuten_train_list.clear();
-		ifstream ifs("/data/local/mizukami/tokuten_pre/tokuten_pre_tag.txt");
+		ifstream ifs("source/tokuten_pre_tag.txt");
 		vector<string> result;
 		int j = 1;
 		while (getline(ifs, str))
@@ -1346,7 +1346,7 @@ public:
 
 		if (!ifs) { cout << "train_naki_intは開けません" << endl; while (1) {} }
 
-		Util::writeFileToLogTxt("if (!ifs) { cout");
+		Util::writeFileToLogTxt(std::string("if (!ifs) { cout"));
 
 		string str;
 		vector<string> result;
@@ -1357,7 +1357,7 @@ public:
 
 		boost::unordered_map<std::string, int> op_list_temp;
 
-		Util::writeFileToLogTxt("memset(op_list, 0, sizeof(op_list));");
+		Util::writeFileToLogTxt(std::string("memset(op_list, 0, sizeof(op_list));"));
 
 		while (getline(ifs, str))
 		{
@@ -1370,7 +1370,7 @@ public:
 			op_list_temp[util.IntToString(util.toInt(result[1]))] = (int)(util.string2double(result[2]) * 1000);
 		}
 		op_list = op_list_temp;
-		Util::writeFileToLogTxt("ifs.close();");
+		Util::writeFileToLogTxt(std::string("ifs.close();"));
 
 		ifs.close();
 		ifs.open("source/tenpai_tag.txt");
@@ -1378,7 +1378,7 @@ public:
 
 		j = 0;
 
-		Util::writeFileToLogTxt("if (!ifs) { cout << tenpai_tagは開けません << endl; while (1) {} }");
+		Util::writeFileToLogTxt(std::string("if (!ifs) { cout << tenpai_tagは開けません << endl; while (1) {} }"));
 
 		boost::unordered_map<std::string, int> tenpai_pre_list_tmp;
 		
@@ -1395,7 +1395,7 @@ public:
 
 
 
-		Util::writeFileToLogTxt("sum[0] = j;");
+		Util::writeFileToLogTxt(std::string("sum[0] = j;"));
 
 		sum[0] = j;
 
@@ -1405,7 +1405,7 @@ public:
 
 		j = 0;
 
-		Util::writeFileToLogTxt("if (!ifs) { cout << matiyomi_tagは開けません << endl; while (1) {} }");
+		Util::writeFileToLogTxt(std::string("if (!ifs) { cout << matiyomi_tagは開けません << endl; while (1) {} }"));
 
 		boost::unordered_map<std::string, int> matiyomi_list_temp;
 		while (getline(ifs, str))
@@ -1421,7 +1421,7 @@ public:
 		ifs.open("source/tokuten_pre_tag.txt");
 		if (!ifs) { cout << "tokuten_pre_tagは開けません" << endl; while (1) {} }
 
-		Util::writeFileToLogTxt("if (!ifs) { cout << tokuten_pre_tagは開けません << endl; while (1) {} }");
+		Util::writeFileToLogTxt(std::string("if (!ifs) { cout << tokuten_pre_tagは開けません << endl; while (1) {} }"));
 
 		j = 0;
 
@@ -1438,7 +1438,7 @@ public:
 		ifs.close();
 		ifs.open("source/uke_result.txt");
 		if (!ifs) { cout << "uke_resultは開けません" << endl; while (1) {
-			Util::writeFileToLogTxt("uke_resultは開けません");
+			Util::writeFileToLogTxt(std::string("uke_resultは開けません"));
 		} }
 		/*
 		util.uke_list = (long long*)malloc(sizeof(long long)*(0x07ffffff));
@@ -1448,7 +1448,7 @@ public:
 		}exit(1); }
 		*/
 		//memset(util.uke_list, 0, sizeof(util.uke_list));
-		Util::writeFileToLogTxt("memset(util.uke_list, 0, sizeof(util.uke_list));");
+		Util::writeFileToLogTxt(std::string("memset(util.uke_list, 0, sizeof(util.uke_list));"));
 
 		//int i=0;
 		boost::unordered_map<std::string, int> uke_list_temp;

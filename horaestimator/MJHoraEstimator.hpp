@@ -12,8 +12,10 @@
 #include <random>
 #include <thread>
 #include <vector>
+#include <atomic> // Added for std::atomic
+#include <mutex>  // Added for std::mutex
 
-#include "../OpponentHoraEstimator/OpponentHoraEstimator.hpp"
+#include "OpponentHoraEstimator.hpp" // Changed path
 
 #define THREAD_NUM 10
 #define MONTE_SIZE (THREAD_NUM * 900)
@@ -800,10 +802,8 @@ public:
         for (int threadSuu = 0; threadSuu < THREAD_NUM; threadSuu++) {
             
             threads.push_back(
-                              std::thread([invisiblePaiSetVec, &mt, numTries, numTsumos, goals,
-                                           furos, &totalHoraVector,
-                                           &totalPointsVector, &totalPointsFreqsVector, start,
-                                           &totalHoraJyunmeVector, type] {
+                              std::thread([&, invisiblePaiSetVec, &mt, numTries, numTsumos, goals,
+                                           furos, start, type] { // Capture by reference, pass others by value/ref
                 
                 for (int j = 0; j < numTries; j++) {
                     std::vector<Pai> randomTsumos;

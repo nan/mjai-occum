@@ -2,10 +2,10 @@
 #define MJAIGame_hpp
 
 //--------------------------------------------------------
-#include "../AverageRankCalculator/AverageRankCalculator.hpp"
-#include "../HoraEstimator/MJHoraEstimator.hpp"
-#include "../OpponentHoraEstimator/OpponentHoraEstimator.hpp"
-#include "../TenpaiProbEstimator/TenpaiProbEstimator.hpp"
+#include "AverageRankCalculator.hpp"
+#include "MJHoraEstimator.hpp"
+#include "OpponentHoraEstimator.hpp"
+#include "TenpaiProbEstimator.hpp"
 //-----------------------**---------------------------------
 
 #include "./furo.h"
