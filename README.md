@@ -1,3 +1,23 @@
+# Linux (WSL2)への移植版です
+
+## ビルド方法
+```
+mkdir build
+cd build
+
+cmake ..
+```
+
+以下の行を mjaigame/CMakeLists.txt に追加
+```
+target_compile_definitions(mjai_ai PRIVATE RELEASE_BUILD)
+```
+最後に以下を実行
+
+```
+make
+```
+---
 ・mjai-occamはmjaiのクライアントです
 
 ・ホームページ http://cmj3.web.fc2.com/tenhou/tenhoutest.html
