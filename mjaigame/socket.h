@@ -56,7 +56,7 @@ public:
 #else
         // TIMEOUT
         struct timeval tv;
-        tv.tv_sec = 10;
+        tv.tv_sec = 1000;
         tv.tv_usec = 0;
         setsockopt(sockfd, SOL_SOCKET, SO_RCVTIMEO, (char *)&tv, sizeof(tv));
 #endif

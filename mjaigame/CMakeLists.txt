@@ -14,6 +14,7 @@ endif()
 
 add_executable(mjai_ai ${MJAI_GAME_SOURCES})
 target_include_directories(mjai_ai PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_definitions(mjai_ai PRIVATE RELEASE_BUILD)
 target_link_libraries(mjai_ai PRIVATE
     averagerankcalculator_lib
     horaestimator_lib
