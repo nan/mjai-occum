@@ -1,7 +1,7 @@
 #ifndef _OPM_
 #define _OPM_
 #include "ma_jan.h"
-#include "util.h"
+#include "../util.h"
 
 #define simtime 1000
 
