@@ -1340,9 +1340,11 @@ public:
 	void init_engine()
 	{
 		int sum[3] = { 0 };
+		std::string execDir = Util::getExecutableDir();
 		string filename = "ShantenTableNew.txt";
-		util.init(filename);
-		ifstream ifs("source/train_naki_int.txt");
+		std::string fullPath = execDir + "/" + filename;
+		util.init(fullPath);
+		ifstream ifs(execDir + "/source/train_naki_int.txt");
 
 		if (!ifs) { cout << "train_naki_intは開けません" << endl; while (1) {} }
 
@@ -1373,7 +1375,7 @@ public:
 		Util::writeFileToLogTxt(std::string("ifs.close();"));
 
 		ifs.close();
-		ifs.open("source/tenpai_tag.txt");
+		ifs.open(execDir + "/source/tenpai_tag.txt");
 		if (!ifs) { cout << "tenpai_tagは開けません" << endl; while (1) {} }
 
 		j = 0;
@@ -1400,7 +1402,7 @@ public:
 		sum[0] = j;
 
 		ifs.close();
-		ifs.open("source/matiyomi_tag.txt");
+		ifs.open(execDir + "/source/matiyomi_tag.txt");
 		if (!ifs) { cout << "matiyomi_tagは開けません" << endl; while (1) {} }
 
 		j = 0;
@@ -1418,7 +1420,7 @@ public:
 
 		sum[1] = j;
 		ifs.close();
-		ifs.open("source/tokuten_pre_tag.txt");
+		ifs.open(execDir + "/source/tokuten_pre_tag.txt");
 		if (!ifs) { cout << "tokuten_pre_tagは開けません" << endl; while (1) {} }
 
 		Util::writeFileToLogTxt(std::string("if (!ifs) { cout << tokuten_pre_tagは開けません << endl; while (1) {} }"));
@@ -1436,7 +1438,7 @@ public:
 
 		sum[2] = j;
 		ifs.close();
-		ifs.open("source/uke_result.txt");
+		ifs.open(execDir + "/source/uke_result.txt");
 		if (!ifs) { cout << "uke_resultは開けません" << endl; while (1) {
 			Util::writeFileToLogTxt(std::string("uke_resultは開けません"));
 		} }
@@ -1474,7 +1476,7 @@ public:
 		tokuten_wei = (double*)malloc(sizeof(double)*sum[2]);
 		if (tokuten_wei == NULL) { exit(1); }
 		ifs.close();
-		ifs.open("source/tenpai_wei.txt");
+		ifs.open(execDir + "/source/tenpai_wei.txt");
 		if (!ifs) { cout << "tenpai_weiは開けません" << endl; while (1) {} }
 		j = 0;
 		while (getline(ifs, str))
@@ -1487,7 +1489,7 @@ public:
 			j++;
 		}
 		ifs.close();
-		ifs.open("source/matiyomi_wei.txt");
+		ifs.open(execDir + "/source/matiyomi_wei.txt");
 
 		if (!ifs) { cout << "matiyomi_weiは開けません" << endl; while (1) {} }
 		j = 0;
@@ -1501,7 +1503,7 @@ public:
 			j++;
 		}
 		ifs.close();
-		ifs.open("source/tokuten_wei.txt");
+		ifs.open(execDir + "/source/tokuten_wei.txt");
 
 		if (!ifs) { cout << "tokuten_weiは開けません" << endl; while (1) {} }
 		j = 0;
@@ -1526,7 +1528,7 @@ public:
 		}
 		for(int i=0;i<34;i++){for(int j=0;j<34;j++){sutehai_pro[i][4][j]=0.0;}}
 		ifs.close();*/
-		ifs.open("source/op_seme.txt");
+		ifs.open(execDir + "/source/op_seme.txt");
 		if (!ifs) { cout << "op_semeは開けません" << endl; while (1) {} }
 		j = 0;
 		while (getline(ifs, str))
